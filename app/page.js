@@ -1,5 +1,11 @@
+import HomeComponents from "@/components/HomeComponents/HomeComponents";
 import "./page.scss";
 
-export default function Home() {
-  return <div className="home-page">Home</div>;
-}
+const Home = () => {
+  return (
+    <div className="home-page">
+      <HomeComponents />
+    </div>
+  );
+};
+export default Home;

@@ -1,5 +1,24 @@
 .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     max-width: 100%;
     border: 1px solid gray;
-    height: 4rem;
+    height: 8rem;
+    padding: 0.5rem;
+
+    &-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-right {
+        display: flex;
+        flex-direction: column;
+    }
 }
