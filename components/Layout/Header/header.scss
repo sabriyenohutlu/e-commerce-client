@@ -1,8 +1,6 @@
 .header {
   max-width: 100%;
-  border: 1px solid gray;
-  height: 6rem;
-  
+  height: 7.5rem;
 
   &-top {
     display: flex;
@@ -10,20 +8,71 @@
     justify-content: space-around;
     padding: 1rem;
 
+    &__logo {
+    }
+
     &__search {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 0.5rem 1rem;
+
+      &-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        padding: 0.25rem;
+        font-size: 1rem;
+        color: #333;
+
+        &::placeholder {
+          color: #999;
+        }
+      }
       &-button {
+        background-color: #2c3e50;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
 
-
-        &-icon {
-
+        &:hover {
+          background-color: #1a2e3f;
         }
       }
     }
 
     &__customerInfo {
-        border: 1px solid red;
+      display: flex;
+      justify-content: space-around;
+
+      &-profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem;
+      }
+      &-favorite {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+      }
+      &-basket {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+      }
     }
   }
 
@@ -31,5 +80,6 @@
     display: flex;
     justify-content: space-around;
     padding: 0.5rem;
+    background-color: #ebd96b;
   }
 }

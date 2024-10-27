@@ -2,4 +2,10 @@
     border: 1px solid gray;
     width: 800px;
     height: 200px;
+
+    &-image {
+        object-fit: cover;
+        width: 100%;
+        
+    }
 }
