@@ -1,13 +1,14 @@
-import {Roboto} from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
+import PageWrapper from "@/components/PageWrapper/PageWrapper";
 
 const roboto = Roboto({
-  weight: ['100','500','700'],
-  style: ['normal'],
-  subsets: ['latin'],
-  display: 'swap',
+  weight: ["100", "500", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "swap",
 });
 export const metadata = {
   title: "Create Next App",
@@ -18,9 +19,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <Header/>
-        {children}
-        <Footer/>
+        <div className="app">
+          <div className="container">
+            <Header />
+            <PageWrapper>{children}</PageWrapper>
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );

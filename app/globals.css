@@ -30,6 +30,26 @@ a {
   text-decoration: none;
 }
 
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.wrapper {
+  border: 1px solid blue;
+  display: flex;
+  align-items: flex-start;
+  min-height: 80.2vh;
+}
+
 .roboto-thin {
   font-family: "Roboto", serif;
   font-weight: 100;

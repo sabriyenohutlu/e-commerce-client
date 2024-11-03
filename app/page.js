@@ -1,3 +1,4 @@
+"use client"
 import HomeComponents from "@/components/HomeComponents/HomeComponents";
 import "./page.scss";
 
