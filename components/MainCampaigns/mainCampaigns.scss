@@ -1,5 +1,11 @@
 .mainCampaigns {
-    border: 1px solid gray;
-    width: 20%;
-    height: 350px;
+  width: 45%;
+  height: 427px;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 427px;
+    aspect-ratio: 1.5/1;
+  }
 }

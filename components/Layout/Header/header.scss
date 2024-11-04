@@ -1,12 +1,15 @@
 .header {
   max-width: 100%;
-  height: 7.5rem;
+  height: 8.2rem;
+  margin-bottom: .25rem;
 
   &-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1rem;
+    max-width: 1200px;
+    margin: 0px auto;
 
     &__logo {
     }
@@ -18,7 +21,7 @@
       max-width: 400px;
       border: 1px solid #ccc;
       border-radius: 10px;
-      padding: 0.5rem 1rem;
+      padding: 0.25rem .5rem;
 
       &-input {
         flex: 1;
@@ -54,32 +57,66 @@
     &__customerInfo {
       display: flex;
       justify-content: space-around;
+      
 
       &-profile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.75rem;
+
+        svg {
+          &:hover {
+            color: #ebd96b;
+          }
+        }
+
+        &-title {
+          font-size: 1rem;
+        }
       }
       &-favorite {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0.5rem;
+        padding: 0.75rem;
+
+        svg {
+          &:hover {
+            color: #ebd96b;
+          }
+        }
       }
       &-basket {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0.5rem;
+        padding: 0.75rem;
+
+        svg {
+          &:hover {
+            color: #ebd96b;
+          }
+        }
       }
     }
   }
 
   &-bottom {
-    display: flex;
-    justify-content: space-around;
     padding: 0.5rem;
-    background-color: #ebd96b;
+    background-color: white;
+    border: 1px solid #ebd96b;
+    width: 100%;
+    margin: 0px auto;
+
+    &_categories {
+      max-width: 1200px;
+      margin: 0px auto;
+      display: flex;
+      justify-content: space-between;
+      color: black;
+      font-weight: bold;
+      font-size: 1rem;
+    }
   }
 }
