@@ -1,0 +1,21 @@
+.productCard {
+  width: 229px;
+  height: 536px;
+  border: 1px solid blue;
+  &-image {
+    width: 229px;
+    height: 350px;
+    border: 1px solid blue;
+  }
+
+  &-bottom {
+    width: 229px;
+    height: 186px;
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+  }
+}

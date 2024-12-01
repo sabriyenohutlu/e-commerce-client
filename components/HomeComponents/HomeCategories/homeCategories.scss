@@ -1,0 +1,15 @@
+.homeCategories {
+    max-width: 1200px;
+    border: 1px solid red;
+
+    &-title {
+        font-size: 2.25rem;
+    }
+
+    &-products {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-items: start;
+        place-content: center;
+    }
+}

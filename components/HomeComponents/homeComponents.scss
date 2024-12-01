@@ -1,6 +1,13 @@
 .home-components {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 2rem;
     max-width: 1200px;
+
+    &-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
