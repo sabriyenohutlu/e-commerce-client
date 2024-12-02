@@ -2,11 +2,11 @@ import "./categoryComponents.scss";
 import FilterSection from "./FilterSection/FilterSection";
 import ProductsListComponents from "./ProductsListComponents/ProductsListComponents";
 
-const CategoryComponents = () => {
+const CategoryComponents = ({category}) => {
   return (
     <div className="category-container">
       <FilterSection/>
-      <ProductsListComponents/>
+      <ProductsListComponents category={category}/>
     </div>
   )
 }

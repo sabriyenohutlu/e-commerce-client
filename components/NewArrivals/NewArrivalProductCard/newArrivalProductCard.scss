@@ -1,7 +1,14 @@
 .newArrivalProductCard {
     height: 502px;
-    width: 303px;
+    width: 232px;
     border: 1px solid red;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    &-image {
+        width: 232px;
+        height: 334px;
+    }
 
     &-bottom {
 

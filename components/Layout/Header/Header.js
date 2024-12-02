@@ -7,7 +7,7 @@ import { GrBasket } from "react-icons/gr";
 const Header = () => {
   const categories = [
     { id: 1, title: "Yeni Gelenler",href:"/yeni-gelenler" },
-    { id: 2, title: "Tişörtler" ,href:"/tisörtler"},
+    { id: 2, title: "Tişörtler" ,href:"/tisortler"},
     { id: 3, title: "Sweatshirt",href:"/sweatshirt" },
     { id: 4, title: "Kupalar",href:"/kupalar" },
     { id: 5, title: "Tasarımlar",href:"/tasarımlar" },

@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "Basic T-shirt",
+      "image": "/assets/tshirts/tshirt1.jpg",
+      "price": 30,
+      "category": "Basic",
+      "description": "A comfortable basic t-shirt."
+    },
+    {
+      "id": 2,
+      "name": "Graphic T-shirt",
+      "image": "/assets/tshirts/tshirt2.jpg",
+      "price": 40,
+      "category": "Graphic",
+      "description": "Stylish t-shirt with a graphic print."
+    }
+  ]

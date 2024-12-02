@@ -1,9 +1,10 @@
+import Image from "next/image";
 import "./newArrivalProductCard.scss";
 
 const NewArrivalProductCard = ({ product }) => {
   return (
     <div className="newArrivalProductCard">
-      <div>{product.image}</div>
+      <Image src={product.image} alt={product.imageAlt} className="newArrivalProductCard_image"/>
       <div className="newArrivalProductCard-bottom">
         <div className="newArrivalProductCard-bottom-categoryArea">
           <div>{product.category}</div>

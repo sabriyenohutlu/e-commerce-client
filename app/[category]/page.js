@@ -1,9 +1,13 @@
 import CategoryComponents from '@/components/CategoryComponents/CategoryComponents'
 import React from 'react'
 
-const CategoryPage = () => {
+const CategoryPage = async({ params }) => {
+
+  const { category } = await params
+
+  console.log(category)
   return (
-    <CategoryComponents/>
+    <CategoryComponents category={category}/>
   )
 }
 
