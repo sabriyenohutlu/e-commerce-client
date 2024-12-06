@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Classic Cup",
+      "title": "Classic Cup",
       "image": "/assets/cups/cup1.jpg",
       "price": 50,
       "category": "Classic",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Modern Cup",
+      "title": "Modern Cup",
       "image": "/assets/cups/cup2.jpg",
       "price": 60,
       "category": "Modern",
@@ -17,55 +17,55 @@
     },
     {
       "id": 3,
-      "name": "Travel Cup",
+      "title": "Travel Cup",
       "image": "/assets/cups/cup3.jpg",
       "price": 70,
       "category": "Travel",
       "description": "Perfect for traveling with your favorite drink."
     },
     {
-        "id": 3,
-        "name": "Travel Cup",
+        "id": 4,
+        "title": "Travel Cup",
         "image": "/assets/cups/cup4.jpg",
         "price": 70,
         "category": "Travel",
         "description": "Perfect for traveling with your favorite drink."
       },
       {
-        "id": 3,
-        "name": "Travel Cup",
+        "id": 5,
+        "title": "Travel Cup",
         "image": "/assets/cups/cup5.jpg",
         "price": 70,
         "category": "Travel",
         "description": "Perfect for traveling with your favorite drink."
       },
       {
-        "id": 3,
-        "name": "Travel Cup",
+        "id": 6,
+        "title": "Travel Cup",
         "image": "/assets/cups/cup6.jpg",
         "price": 70,
         "category": "Travel",
         "description": "Perfect for traveling with your favorite drink."
       },
       {
-        "id": 3,
-        "name": "Travel Cup",
+        "id": 7,
+        "title": "Travel Cup",
         "image": "/assets/cups/cup7.jpg",
         "price": 70,
         "category": "Travel",
         "description": "Perfect for traveling with your favorite drink."
       },
       {
-        "id": 3,
-        "name": "Travel Cup",
+        "id": 8,
+        "title": "Travel Cup",
         "image": "/assets/cups/cup8.jpg",
         "price": 70,
         "category": "Travel",
         "description": "Perfect for traveling with your favorite drink."
       },
       {
-        "id": 3,
-        "name": "Travel Cup",
+        "id": 9,
+        "title": "Travel Cup",
         "image": "/assets/cups/cup9.jpg",
         "price": 70,
         "category": "Travel",

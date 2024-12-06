@@ -1,17 +1,27 @@
 .homeCategoriesCard {
-    height: 502px;
-    width: 303px;
-    border: 1px solid red;
+    height: 320px;
+    width: 352px;
+    border: 1px solid lightgray;
+
+    &-image {
+        height: 263px;
+        width: 350px; 
+    }
 
     &-bottom {
 
 
         &-categoryArea {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
 
-        }
-
-        &-icon {
+          &-icon {
+            display: flex;
             
+          }
         }
+
+      
     }
 }

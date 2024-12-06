@@ -1,6 +1,12 @@
 .category-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
     max-width: 1200px;
     gap: 2.5rem;
+
+    &_bottom {
+    display: flex;
+    gap: 1rem;
+    }
 }

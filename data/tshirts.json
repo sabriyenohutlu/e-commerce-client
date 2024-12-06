@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "Basic T-shirt",
+      "title": "Basic T-shirt",
       "image": "/assets/tshirts/tshirt1.jpg",
       "price": 30,
       "category": "Basic",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Graphic T-shirt",
+      "title": "Graphic T-shirt",
       "image": "/assets/tshirts/tshirt2.jpg",
       "price": 40,
       "category": "Graphic",

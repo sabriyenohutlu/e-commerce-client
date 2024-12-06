@@ -1,6 +1,8 @@
 .productsList {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    place-content: start;
+    gap: 1rem;
     height: auto;
-    border: 1px solid gray;
+    
 }

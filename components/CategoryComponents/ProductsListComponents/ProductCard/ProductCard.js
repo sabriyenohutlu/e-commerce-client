@@ -5,13 +5,11 @@ const ProductCard = ({product}) => {
   return (
     <div className="productCard">
         <div className="productCard-image">
-          <Image src={product.image} width={229} height={350} alt="product"/>
+          <Image src={product.image} width={265} height={320} alt="product"/>
         </div>
         <div className="productCard-bottom">
-            <span>{product.title}</span>
-            <span>{product.price}</span>
-            <span>{product.description}</span>
-            <span>{product.category}</span>
+            <span className="productCard-bottom_title">{product.title}</span>
+            <span className="productCard-bottom_price">{product.price} <span className="productCard-bottom_currency">TL</span></span>
         </div>
     </div>
   )

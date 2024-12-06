@@ -20,19 +20,25 @@ const MainSlider = () => {
     { id: 3, alt: "king", image: pexelsKing },
   ];
 
+  const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + '</span>';
+    },
+  };
+
   return (
     <div className="mainSlider">
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        navigation
-        pagination={{ clickable: true }}
+        modules={[Pagination, A11y]}
+        pagination={{dynamicBullets:true,pagination}}
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
         {images.map((image) => (
           <SwiperSlide key={image.id}>
-            <Image src={image.image} alt={image.alt} />
+            <Image width={1200} src={image.image} alt={image.alt} />
           </SwiperSlide>
         ))}
       </Swiper>

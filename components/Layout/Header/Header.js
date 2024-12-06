@@ -19,7 +19,7 @@ const Header = () => {
         <Link className="header-top__logo" href={"/"}>
           <FaTshirt size={34} color="#E6C744" />
         </Link>
-        <div className="header-top__search">
+        {/* <div className="header-top__search">
           <input
             type="text"
             className="header-top__search-input"
@@ -28,7 +28,7 @@ const Header = () => {
           <button type="submit" className="header-top__search-button">
             <i className="header-top__search-button-icon"></i>
           </button>
-        </div>
+        </div> */}
         <div className="header-top__customerInfo">
           <Link className="header-top__customerInfo-profile" href={"/hesabim"}>
             <TiUser size={18} />

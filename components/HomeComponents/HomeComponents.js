@@ -9,10 +9,11 @@ const HomeComponents = () => {
     <div className="home-components">
       <div className="home-components-top">
         <MainSlider />
-        <MainCampaigns />
+        {/* <MainCampaigns /> */}
       </div>
-      <NewArrivals />
       <HomeCategories/>
+      <NewArrivals />
+      
     </div>
   );
 };
