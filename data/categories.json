@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "title":"Tişörtler",
+        "category":"tisortler"
+    },
+    {
+        "id":2,
+        "title":"Sweatshirt",
+        "category":"t-shirt"
+    },
+    {
+        "id":3,
+        "title":"Zıbınlar",
+        "category":"zibin"
+    },
+    {
+        "id":4,
+        "title":"Kupalar",
+        "category":"cups"
+    }
+]

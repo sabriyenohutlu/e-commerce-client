@@ -1,11 +1,11 @@
-import { Roboto } from "next/font/google";
+import { Comfortaa } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Layout/Header/Header";
 import Footer from "@/components/Layout/Footer/Footer";
 import PageWrapper from "@/components/PageWrapper/PageWrapper";
 
-const roboto = Roboto({
-  weight: ["100", "500", "700"],
+const roboto = Comfortaa({
+  weight: ["300", "700"],
   style: ["normal"],
   subsets: ["latin"],
   display: "swap",

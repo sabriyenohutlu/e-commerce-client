@@ -1,0 +1,11 @@
+.favoriteComponents {
+    padding: 1rem 0;
+    &_filterSection {
+        width: 20%;
+        height: 500px;
+        border: 1px solid lightgray;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+}

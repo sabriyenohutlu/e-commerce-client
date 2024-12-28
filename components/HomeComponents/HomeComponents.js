@@ -1,6 +1,7 @@
 import MainCampaigns from "../MainCampaigns/MainCampaigns";
 import MainSlider from "../MainSlider/MainSlider";
 import NewArrivals from "../NewArrivals/NewArrivals";
+import PopularProducts from "../PopularProducts/PopularProducts";
 import HomeCategories from "./HomeCategories/HomeCategories";
 import "./homeComponents.scss";
 
@@ -12,8 +13,8 @@ const HomeComponents = () => {
         {/* <MainCampaigns /> */}
       </div>
       <HomeCategories/>
+      <PopularProducts/>
       <NewArrivals />
-      
     </div>
   );
 };

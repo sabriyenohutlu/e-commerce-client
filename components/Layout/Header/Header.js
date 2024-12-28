@@ -4,13 +4,16 @@ import { FaTshirt } from "react-icons/fa";
 import { TiUser } from "react-icons/ti";
 import { GrFavorite } from "react-icons/gr";
 import { GrBasket } from "react-icons/gr";
+import { RxMagicWand } from "react-icons/rx";
+
 const Header = () => {
   const categories = [
-    { id: 1, title: "Yeni Gelenler",href:"/yeni-gelenler" },
+    // { id: 1, title: "Yeni Gelenler",href:"/yeni-gelenler" },
     { id: 2, title: "Tişörtler" ,href:"/tisortler"},
     { id: 3, title: "Sweatshirt",href:"/sweatshirt" },
-    { id: 4, title: "Kupalar",href:"/kupalar" },
-    { id: 5, title: "Tasarımlar",href:"/tasarımlar" },
+    { id: 4, title: "Zıbınlar",href:"/zibin" },
+    { id: 5, title: "Kupalar",href:"/kupalar" },
+    { id: 6, title: "Tasarımlar",href:"/tasarimlar" },
   ];
 
   return (
@@ -30,8 +33,14 @@ const Header = () => {
           </button>
         </div> */}
         <div className="header-top__customerInfo">
+        <Link className="header-top__customerInfo-profile" href={"/tasarim-olustur"}>
+            <RxMagicWand size={22} />
+            <span className="header-top__customerInfo-profile-title ">
+              Tasarım Oluştur
+            </span>
+          </Link>
           <Link className="header-top__customerInfo-profile" href={"/hesabim"}>
-            <TiUser size={18} />
+            <TiUser size={22} />
             <span className="header-top__customerInfo-profile-title ">
               Hesabım
             </span>
@@ -41,12 +50,12 @@ const Header = () => {
             href={"/favorilerim"}
             className="header-top__customerInfo-favorite"
           >
-            <GrFavorite size={18} />
+            <GrFavorite size={22} />
             <span>Favorilerim</span>
           </Link>
 
           <Link href={"/sepet"} className="header-top__customerInfo-basket">
-            <GrBasket size={18} />
+            <GrBasket size={22} />
             <span>Sepetim</span>
           </Link>
         </div>

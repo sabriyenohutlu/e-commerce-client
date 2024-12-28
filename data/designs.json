@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Yıbaşı Özel Tasarımlar",
+      "image": "/assets/designs/christmas/011.jpg",
+      "price": 30,
+      "category": "newyear"
+    },
+    {
+      "id": 2,
+      "title": "Sevgililer Günü Özel Tasarımlar",
+      "image": "/assets/designs/valentine/valentine9.png",
+      "price": 40,
+      "category": "valentine"
+   
+    }
+  ]

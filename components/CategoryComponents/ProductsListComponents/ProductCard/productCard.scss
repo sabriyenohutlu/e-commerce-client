@@ -1,5 +1,5 @@
 .productCard {
-  width: 265px;
+  width: 300px;
   height: 400px;
 
   box-shadow: 0 0 0 1px rgba($color: #d2d2d2, $alpha: 0.5);
@@ -21,8 +21,10 @@
   }
 
   &-image {
-    width: 285px;
+    width: 300px;
     height: 320px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
    
   }
 

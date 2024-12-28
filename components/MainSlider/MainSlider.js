@@ -38,11 +38,11 @@ const MainSlider = () => {
       >
         {images.map((image) => (
           <SwiperSlide key={image.id}>
-            <Image width={1200} src={image.image} alt={image.alt} />
+            <Image src={image.image} alt={image.alt} className="mainSlider-image"/>
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </div>         
   );
 };
 
