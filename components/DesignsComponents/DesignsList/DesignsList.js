@@ -1,13 +1,17 @@
-import DesignCard from "../DesignCard/DesignCard";
+import desingsList from "@/data/designs.json";
 import "./designsList.scss";
-import designData from "@/data/designs.json";
+import DesignCard from "../DesignCard/DesignCard";
+const DesignsList = ({ printing_category_id }) => {
+  const filteredDesign = desingsList.filter((i)=>i.printing_category_id === Number(printing_category_id))
 
-const DesignsList = () => {
   return (
     <div className="designsList">
-      {designData.map((design, idx) => (
-        <DesignCard key={idx} design={design} />
-      ))}
+      {printing_category_id &&
+        filteredDesign.map((thisDesign) => {
+         return thisDesign?.designs?.map((design) => (
+            <DesignCard design={design} key={design.id} />
+          ));
+        })}
     </div>
   );
 };

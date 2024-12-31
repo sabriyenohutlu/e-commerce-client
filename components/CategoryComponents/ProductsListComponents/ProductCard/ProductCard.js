@@ -1,5 +1,7 @@
 import Image from "next/image";
 import "./productCard.scss";
+import FavButton from "@/components/FavButton/FavButton";
+import AddBasketButton from "@/components/AddBasketButton/AddBasketButton";
 
 const ProductCard = ({ product }) => {
   return (
@@ -13,10 +15,15 @@ const ProductCard = ({ product }) => {
       />
       <div className="productCard-bottom">
         <span className="productCard-bottom_title">{product.title}</span>
-        <span className="productCard-bottom_price">
-          {product.price}{" "}
-          <span className="productCard-bottom_currency">TL</span>
-        </span>
+        <div className="productCard-bottom_priceArea">
+          <span className="productCard-bottom_priceArea-price">
+            {product.price} TL
+          </span>
+          <div className="productCard-bottom_priceArea-basket">
+          <AddBasketButton />
+          </div>
+        </div>
+        <FavButton />
       </div>
     </div>
   );
