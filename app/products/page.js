@@ -16,8 +16,8 @@ const ProductDenemePage = () => {
     }, []);
     console.log(products)
   return (
-    <div>
-        {products.map((product,idx) => <ProductCard key={idx} product={product}/>)}
+    <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
+        {products.map((product,idx) => <ProductCard key={idx} product={product}/>)} 
     </div>
   )
 }
