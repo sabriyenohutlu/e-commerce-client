@@ -14,7 +14,7 @@ const ProductCard = ({ product }) => {
         alt="product"
       /> */}
       <div className="productCard-bottom">
-        <span className="productCard-bottom_title">{product.product_name}</span>
+        <span className="productCard-bottom_title">{product.product_name} {product.product_id}</span>
         <div className="productCard-bottom_priceArea">
           <span className="productCard-bottom_priceArea-price">
             {product.sprice} TL

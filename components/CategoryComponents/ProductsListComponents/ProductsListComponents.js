@@ -19,7 +19,7 @@ const ProductsListComponents = ({category}) => {
   return (
     <div className="productsList">
       {productsMap[category]?.length ? (
-        productsMap[category].map((product, idx) => (
+        productsMap[category]?.map((product, idx) => (
           <ProductCard product={product} key={idx} />
         ))
       ) : (

@@ -3,7 +3,7 @@ const db = require('../db');
 const router = express.Router();
 
 // Get all products
-router.get('/api/products', async (req, res) => {
+router.get('/products', async (req, res) => {
     try {
       const [rows] = await db.query('SELECT * FROM product');
       res.json(rows);

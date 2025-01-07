@@ -1,11 +1,12 @@
 import CategoryComponents from '@/components/CategoryComponents/CategoryComponents'
-import React from 'react'
+import { getUserId } from '@/data/data'
 
 const CategoryPage = async({ params }) => {
 
   const { category } = await params
+  const userId = await getUserId()
+  console.log(userId)
 
-  console.log(category)
   return (
     <CategoryComponents category={category}/>
   )

@@ -14,10 +14,11 @@ const ProductDenemePage = () => {
   
       loadProducts();
     }, []);
-    console.log(products)
+   
   return (
     <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around'}}>
-        {products.map((product,idx) => <ProductCard key={idx} product={product}/>)} 
+      {/* {products?.length === 0 ? <h1>Loading...</h1> : products?.map((product,idx) => <ProductCard key={idx} product={product}/>)} */}
+     
     </div>
   )
 }
